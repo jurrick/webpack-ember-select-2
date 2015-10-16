@@ -1,5 +1,3 @@
-import Ember from "ember";
-
 var get = Ember.get;
 var run = Ember.run;
 
@@ -530,7 +528,7 @@ var Select2Component = Ember.Component.extend({
 
       if (select) {
         Ember.run(function() {
-          select.select2("readonly", disabled);
+          select.select2();
         });
       }
     }
