@@ -528,7 +528,7 @@ var Select2Component = Ember.Component.extend({
 
       if (select) {
         Ember.run(function() {
-          select.select2();
+          // select.select2();
         });
       }
     }
